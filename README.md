@@ -7,3 +7,5 @@ their text editor and those that develop using odoo 12’s `--dev=all` option, a
 the same time. Not applying this patch results in an uncaught `IOError` due to
 emacs generating `*.py` files that start with `.#`, hence the file not being
 found.
+
+Note: This patch is also applicable to an Odoo 11 installation.
